@@ -30,6 +30,14 @@ def set_page_overview(varHeader, varText):
         st.markdown(f"{varText}")
         st.divider()
 
+### 3. PAGE SECTION
+def set_page_section(varHeader, varText):
+        set_blue_header(varHeader)
+        st.markdown(f"{varText}")
+        section_placeholder = st.empty()
+        st.divider()
+        return section_placeholder
+
 ### 4. HYDRALIT NAVBAR
 
 def set_nav_bar():
